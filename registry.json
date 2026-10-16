@@ -80,6 +80,14 @@
     "endpoint": "https://rube.composio.dev/mcp"
   },
   {
+    "id": "curlshot-mcp",
+    "name": "CurlShot MCP Server",
+    "description": "Take screenshots of public web pages as PNG, JPEG, WebP, PDF or scrolling video through CurlShot's hosted MCP server",
+    "category": "development",
+    "website": "https://curlshot.com/docs/guides/ai-agents",
+    "endpoint": "https://curlshot.com/api/mcp"
+  },
+  {
     "id": "dappier-mcp",
     "name": "Dappier MCP Server",
     "description": "Real-time AI processing and machine learning model deployment platform",

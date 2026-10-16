@@ -77,6 +77,7 @@ A curated list of public [Model Context Protocol](https://modelcontextprotocol.i
 | Name                                                  | Description                                                                        | Endpoint                                              |
 |-------------------------------------------------------|------------------------------------------------------------------------------------|-------------------------------------------------------|
 | [Atlassian](https://mcp.atlassian.com)                | Access Jira, Confluence, Bitbucket and other Atlassian tools for development teams | `https://mcp.atlassian.com/v1/sse`                    |
+| [CurlShot](https://curlshot.com/docs/guides/ai-agents) | Take screenshots of public web pages as PNG, JPEG, WebP, PDF or scrolling video    | `https://curlshot.com/api/mcp`                        |
 | [GitHub](https://anthropic.com)                       | Complete GitHub integration for MCP - manage repos, issues, PRs, and more          | `wss://github-mcp.modelcontextprotocol.io`            |
 | [GitHub App](https://api.github.com)                  | GitHub integration for app-level access to repositories and organizations          | `https://api.github.com/mcp/app/sse`                  |
 | [Javadocs.dev](https://javadocs.dev)                  | Browse and search Java, Kotlin, and Scala library documentation from Maven Central | `https://www.javadocs.dev/mcp`                        |
