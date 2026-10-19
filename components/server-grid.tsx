@@ -31,6 +31,10 @@ function categoryLabel(cat: string) {
   return cat.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
+function websiteUrl(website: string) {
+  return /^https?:\/\//i.test(website) ? website : `https://${website}`;
+}
+
 export function ServerGrid({ servers }: { servers: MCPServer[] }) {
   const [query, setQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState("all");
@@ -121,7 +125,7 @@ export function ServerGrid({ servers }: { servers: MCPServer[] }) {
                 )}
                 {server.website && (
                   <a
-                    href={server.website}
+                    href={websiteUrl(server.website)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-1 text-xs font-medium text-slate-700 hover:text-slate-900 transition-colors"
