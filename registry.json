@@ -296,6 +296,14 @@
     "endpoint": "https://mcp.needle-ai.com/mcp"
   },
   {
+    "id": "neverapply-mcp",
+    "name": "NeverApply MCP Server",
+    "description": "Search and match jobs, tailor resumes, prep for interviews and apply with your approval",
+    "category": "productivity",
+    "website": "https://neverapply.co",
+    "endpoint": "https://neverapply.co/mcp"
+  },
+  {
     "id": "notion-mcp",
     "name": "Notion MCP Server",
     "description": "All-in-one workspace for notes, docs, and collaboration",
