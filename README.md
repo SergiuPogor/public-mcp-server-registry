@@ -121,6 +121,7 @@ A curated list of public [Model Context Protocol](https://modelcontextprotocol.i
 | [Kiwi.com](https://kiwi.com)                   | Search and book flights directly from your AI assistant using Kiwi.com's flight search engine | `https://mcp.kiwi.com`                        |
 | [Linear](https://linear.app)                   | Project management and issue tracking for software teams                                      | `wss://linear-mcp.mcp.io`                     |
 | [Monday.com](https://api.monday.com)           | Work operating system for managing projects, workflows, and team collaboration                | `https://api.monday.com/mcp/sse`              |
+| [NeverApply](https://neverapply.co)            | Search and match jobs, tailor resumes, prep for interviews and apply with your approval       | `https://neverapply.co/mcp`                   |
 | [Notion](https://notion.so)                    | All-in-one workspace for notes, docs, and collaboration                                       | `wss://notion-mcp.mcp.io`                     |
 | [Pinterest](https://api.pinterest.com)         | Visual discovery platform for finding ideas, recipes, style inspiration and more              | `https://api.pinterest.com/mcp/sse`           |
 | [Rube (Composio)](https://composio.dev)        | Connects AI chat tools to more than 500 business and productivity applications                | `https://rube.composio.dev/mcp`               |
